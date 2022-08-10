@@ -1,0 +1,41 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #100c4a;
+}
+
+.cabecalho img {
+    width: 90px;
+}
+
+.cabecalho ul li {
+    color: #aa8c06;
+    display: inline;
+    margin: auto 15px;
+}
+
+.endereco {
+    color: #fefefe;
+    margin: 20px 60px;
+}
+
+.endereco p {
+    display: inline;
+}
+
+.acoes_menu button {
+    background: linear-gradient(#e81515,rgb(81, 28, 28));
+    color: #aa8c06;
+    width: 85px;
+    height: 27px;
+    font-size: 14px;
+    border-radius: 20px;
+}
